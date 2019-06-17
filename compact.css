@@ -9,15 +9,15 @@
   justify-content: space-between;
   padding-top: .5rem;
   padding-right: .5rem;
-  padding-bottom: .5rem;
+  padding-bottom: 1.1rem;
   padding-left: .5rem;
   position: relative;
 }
 
 .forceListViewManagerHeader.slds-page-header--object-home > div:last-child > div:first-child {
   position: absolute;
-  left: 26rem;
-  top: 1.3rem;
+  left: .5rem;
+  top: 2.9rem;
 }
 
 .forceListViewManagerHeader.slds-page-header--object-home > div:first-child > div:last-child {
@@ -27,7 +27,7 @@
 }
 
 .forceListViewManagerHeader.slds-page-header--object-home > div:first-child > div:last-child a div:after{
-  content: 'ticket';
+  content: 'element';
   padding-left: 6px;
 }
 
