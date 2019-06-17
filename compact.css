@@ -1,0 +1,107 @@
+.oneSystemMessage {
+  display: none;
+}
+
+.forceListViewManagerHeader.slds-page-header--object-home {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-right: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+  position: relative;
+}
+
+.forceListViewManagerHeader.slds-page-header--object-home > div:last-child > div:first-child {
+  position: absolute;
+  left: 26rem;
+  top: 1.3rem;
+}
+
+.forceListViewManagerHeader.slds-page-header--object-home > div:first-child > div:last-child {
+  position: relative;
+  top: 0.3rem;
+  margin-left: 2rem;
+}
+
+.forceListViewManagerHeader.slds-page-header--object-home > div:first-child > div:last-child a div:after{
+  content: 'ticket';
+  padding-left: 6px;
+}
+
+.viewport .panelSlide {
+  top: 40px !important;
+  height: calc(100% - 40px) !important;
+}
+
+.runtime_sales_pipelineboardPipelineViewColumnHeader .stageHeader {
+  padding: .2rem .2rem .2rem 1.5rem
+}
+
+.runtime_sales_pipelineboardPipelineView .container .pipelineHeader:before {
+  width: 1.3rem;
+  height: 1.3em;
+}
+
+.runtime_sales_pipelineboardPipelineView .container .pipelineColumn .pipelineAggregateHeader {
+  height: 2rem;
+  line-height: 1.7rem;
+}
+
+
+/* HEADER */
+
+.slds-global-header {
+  position: absolute;
+  width: 100%;
+  background: none;
+  padding-top: 0;
+  margin-top: -3px;
+  box-shadow: none;
+}
+
+.slds-global-header__item {
+  position: relative;
+  z-index: 1000;
+}
+
+.slds-global-header__logo {
+  display: none;
+}
+
+.slds-global-header__item_search, .slds-global-header__item--search {
+  position: relative;
+  left: 36.4rem;
+}
+
+.slds-global-header__item--search .slds-nowrap {
+  flex: none;
+}
+
+#input-7 {
+  width: 60px !important;
+}
+
+.slds-global-header__item--search .slds-input-has-icon_left .slds-input__icon, .slds-input-has-icon--left .slds-input__icon {
+  left: -.16rem;
+}
+
+.forceSearchInputDesktop .inputWrapper {
+  padding-left: 1.2rem;
+}
+
+.forceSearchInputDesktop .autocompleteWrapper {
+  min-width: .4rem;
+}
+
+.slds-global-header__item--search input.slds-size_1-of-1, .slds-size--1-of-1 {
+  width: 6.5rem;
+}
+
+.slds-m-right_medium, .slds-m-right--medium {
+  margin-right: 16rem;
+  position: relative;
+  bottom: 2px;
+}
