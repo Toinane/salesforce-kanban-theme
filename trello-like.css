@@ -1,0 +1,271 @@
+:root {
+  --background: url('https://images.unsplash.com/photo-1554558424-4a02a6451c4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2623&q=80');
+}
+
+.oneSystemMessage {
+  display: none;
+}
+
+.forceListViewManagerHeader.slds-page-header--object-home {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-right: .5rem;
+  padding-bottom: 1.1rem;
+  padding-left: .5rem;
+  position: relative;
+}
+
+.forceListViewManagerHeader.slds-page-header--object-home > div:last-child > div:first-child {
+  position: absolute;
+  left: .5rem;
+  top: 2.9rem;
+}
+
+.forceListViewManagerHeader.slds-page-header--object-home > div:first-child > div:last-child {
+  position: relative;
+  top: 0.3rem;
+  margin-left: 2rem;
+}
+
+.forceListViewManagerHeader.slds-page-header--object-home > div:first-child > div:last-child a div:after{
+  content: 'element';
+  padding-left: 6px;
+}
+
+.viewport .panelSlide {
+  top: 40px !important;
+  height: calc(100% - 40px) !important;
+}
+
+.runtime_sales_pipelineboardPipelineViewColumnHeader .stageHeader {
+  padding: .2rem .2rem .2rem 1.5rem
+}
+
+.runtime_sales_pipelineboardPipelineView .container .pipelineHeader:before {
+  width: 1.3rem;
+  height: 1.3em;
+}
+
+.runtime_sales_pipelineboardPipelineView .container .pipelineColumn .pipelineAggregateHeader {
+  height: 2rem;
+  line-height: 1.7rem;
+}
+
+.runtime_sales_pipelineboardPipelineViewCardStencil a, .runtime_sales_pipelineboardPipelineView .wrapperContainer {
+  white-space: unset;
+}
+
+.runtime_sales_pipelineboardPipelineViewCardStencil .slds-truncate {
+  text-overflow: unset;
+  overflow: unset;
+}
+
+.runtime_sales_pipelineboardPipelineViewCardStencil p:last-of-type {
+  float: right;
+  position: relative;
+  bottom: 22px;
+  left: 18px;
+}
+
+
+/* HEADER */
+
+.slds-global-header {
+  position: absolute;
+  width: 100%;
+  background: none;
+  padding-top: 0;
+  margin-top: -3px;
+  box-shadow: none;
+}
+
+.slds-global-header__item {
+  position: relative;
+  z-index: 1000;
+}
+
+.slds-global-header__logo {
+  display: none;
+}
+
+.slds-global-header__item_search, .slds-global-header__item--search {
+  position: relative;
+  left: 36.4rem;
+}
+
+.slds-global-header__item--search .slds-nowrap {
+  flex: none;
+}
+
+#input-7 {
+  width: 60px !important;
+}
+
+.slds-global-header__item--search .slds-input-has-icon_left .slds-input__icon, .slds-input-has-icon--left .slds-input__icon {
+  left: -.16rem;
+}
+
+.forceSearchInputDesktop .inputWrapper {
+  padding-left: 1.2rem;
+}
+
+.forceSearchInputDesktop .autocompleteWrapper {
+  min-width: .4rem;
+}
+
+.slds-global-header__item--search input.slds-size_1-of-1, .slds-size--1-of-1 {
+  width: 6.5rem;
+}
+
+.slds-m-right_medium, .slds-m-right--medium {
+  margin-right: 16rem;
+  position: relative;
+  bottom: 2px;
+}
+
+/* Background */
+
+html {
+  background: var(--background);
+  background-size: cover;
+}
+
+.slds-context-bar {
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+}
+
+.slds-template_bottom-magnet {
+  padding: 0;
+}
+
+.slds-brand-band, .slds-brand-band:after, .slds-brand-band:before {
+  background: transparent;
+  background-image: none;
+}
+
+.slds-page-header {
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 0;
+}
+/*.slds-page-header:before {
+  content: '';
+  position: absolute;
+  left: 0; top : 0;
+  width: 100%;
+  height: 100px;
+  filter: blur(2px);
+  background: var(--background);
+  background-size: cover;
+}*/
+
+.forceObjectHomePipelineView.slds-theme_default, .forceObjectHomePipelineView.slds-theme--default {
+  background: transparent;
+}
+
+.runtime_sales_pipelineboardPipelineView .container {
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+.runtime_sales_pipelineboardPipelineViewColumnHeader {
+  position: relative;
+}
+
+.runtime_sales_pipelineboardPipelineView .container .pipelineColumn {
+  margin: 0 5px;
+  min-width: 20em;
+  max-width: 20em;
+  background: #dfe1e6;
+  border-radius: 5px;
+}
+
+.runtime_sales_pipelineboardPipelineViewColumnHeader .stageHeader {
+  background: none;
+}
+
+.runtime_sales_pipelineboardPipelineViewColumnHeader .stageHeader {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 1.1em;
+  letter-spacing: -0.1px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.runtime_sales_pipelineboardPipelineViewColumnHeader .stageHeaderCount {
+  width: 10px;
+  font-weight: normal;
+}
+
+.runtime_sales_pipelineboardPipelineViewColumnHeader .uiTooltip .pipelineHeaderTooltip, .runtime_sales_pipelineboardPipelineView .container .pipelineHeader:before {
+  display: none;
+}
+
+.runtime_sales_pipelineboardPipelineViewColumnHeader .stageHeader {
+  padding: 1px 0 10px 16px;
+}
+
+.runtime_sales_pipelineboardPipelineView .container .pipelineColumn .pipelineAggregateHeader {
+  position: absolute;
+  top: 0px; right: 13px;
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+  color: #172b4d;
+  font-size: 1.1em;
+}
+.runtime_sales_pipelineboardPipelineView .container .pipelineColumn .pipelineAggregateHeader:after {
+  content: ' pts';
+}
+
+.runtime_sales_pipelineboardPipelineViewColumn .listContent {
+  overflow-y: auto;
+}
+
+.runtime_sales_pipelineboardPipelineView .container {
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.runtime_sales_pipelineboardPipelineViewColumn .listContent {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: none;
+}
+
+.runtime_sales_pipelineboardPipelineViewColumn .listContent::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+  background: rgba(0,0,0,.08);
+  border-radius: 5px;
+}
+
+.runtime_sales_pipelineboardPipelineViewColumn .listContent::-webkit-scrollbar-thumb {
+  height: 1px;
+  border-radius: 5px;
+  background-color: rgba(9,30,66,.17);
+}
+
+.runtime_sales_pipelineboardPipelineViewColumn, .runtime_sales_pipelineboardPipelineViewColumn>section {
+  height: unset;
+  max-height: 100%;
+  min-height: 80px;
+}
