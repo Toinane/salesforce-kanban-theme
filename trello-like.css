@@ -131,6 +131,7 @@
 html {
   background: var(--background);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .slds-context-bar {
