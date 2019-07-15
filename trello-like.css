@@ -233,14 +233,14 @@ html {
   margin-bottom: 7px;
 }
 
-::-webkit-scrollbar {
+.runtime_sales_pipelineboardPipelineView .container::-webkit-scrollbar {
   -webkit-appearance: none;
   height: 10px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 
-::-webkit-scrollbar-thumb {
+.runtime_sales_pipelineboardPipelineView .container::-webkit-scrollbar-thumb {
   height: 1px;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.6);
